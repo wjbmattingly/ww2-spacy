@@ -1,0 +1,19 @@
+SOURCE: https://en.wikipedia.org/wiki/United_States_Army_enlisted_rank_insignia_of_World_War_II
+Private|PV1|Pvt
+Private First Class|Pfc
+Corporal|Cpl
+Sergeant|Sgt
+Staff Sergeant|SSG|S\/Sgt
+Sergeant Sirst Class|SFC|T\/Sgt
+First Sergeant|1SG|1sg|1st Sgt
+Master Sergeant|MSG|m\/Sgt
+Second Lieutenant|2lt
+First Lieutenant|1Lt
+Captain|Cap|Cpt|Capt
+Major|Maj
+Lieutenant Colonel|LTC|Lt Colonel|Lt\. Colonel
+Colonel|Col
+General|Gen
+Grigadier General|Grigadier Gen
+Major General|Major Gen
+Lieutenant General|Lt\. Gen|Lt Gen
