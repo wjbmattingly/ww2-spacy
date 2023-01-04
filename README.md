@@ -1,4 +1,4 @@
-![header for ww2 spacy](images/header.png)
+![header for ww2 spacy](https://github.com/wjbmattingly/ww2-spacy/raw/main/images/header.png)
 
 WW2 spaCy is a pipeline for processing primary and secondary sources for World War 2. The pipeline is designed to not rely on machine learning so that it can remain highly modular, meaning a user can take a specific pipe and attach it to their own pipeline without issue.
 
@@ -28,4 +28,4 @@ It contained Sherman tanks. John Sherman is a false positive."""
 doc = nlp(text)
 displacy.render(doc, style="span", jupyter=True, options = {"spans_key": "ruler"})
 ```
-![example output](images/example.png)
+![example output](https://github.com/wjbmattingly/ww2-spacy/raw/main/images/example.png)
