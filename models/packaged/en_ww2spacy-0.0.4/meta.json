@@ -2,19 +2,18 @@
   "lang":"en",
   "name":"ww2spacy",
   "version":"0.0.4",
-  "spacy_version":">=3.4.4,<3.5.0",
   "description":"This is a spaCy pipeline for processing primary and secondary sources pertaining to World War 2",
   "author":"W.J.B. Mattingly",
   "email":"",
   "url":"https://github.com/wjbmattingly/ww2-spacy",
   "license":"",
+  "spacy_version":">=3.4.4,<3.5.0",
   "spacy_git_version":"77833bfef",
   "vectors":{
     "width":0,
     "vectors":0,
     "keys":0,
-    "name":null,
-    "mode":"default"
+    "name":null
   },
   "labels":{
     "sentencizer":[
@@ -67,6 +66,9 @@
     "clean_tank"
   ],
   "disabled":[
+
+  ],
+  "requirements":[
 
   ]
 }
