@@ -72,3 +72,14 @@ def clean_tank(doc):
         new_spans.append(span)
     doc.spans["ruler"] = new_spans
     return doc
+
+@Language.component("find_ghetto")
+def find_ghetto(doc):
+    original_ents = list(doc.spans["ruler"])
+    for i, token in enumerate(doc):
+        if token.text.lower() == "ghetto":
+            prev_token = doc[i-1]
+            if prev_token.text[0].isupper():
+                original_ents.append(Span(doc, i-1, i, label="GHETTO"))
+    doc.spans["ruler"] = original_ents
+    return doc

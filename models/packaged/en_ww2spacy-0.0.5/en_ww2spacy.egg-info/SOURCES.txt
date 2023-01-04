@@ -12,7 +12,6 @@ en_ww2spacy.egg-info/entry_points.txt
 en_ww2spacy.egg-info/not-zip-safe
 en_ww2spacy.egg-info/requires.txt
 en_ww2spacy.egg-info/top_level.txt
-en_ww2spacy/en_ww2spacy-0.0.5/README.md
 en_ww2spacy/en_ww2spacy-0.0.5/config.cfg
 en_ww2spacy/en_ww2spacy-0.0.5/meta.json
 en_ww2spacy/en_ww2spacy-0.0.5/sentencizer.json
