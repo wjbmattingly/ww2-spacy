@@ -53,6 +53,7 @@ displacy.render(doc, style="span", jupyter=True, options = {"spans_key": "ruler"
 - MINE_VESSEL
 - MORTAR
 - MOUNTAIN_DIVISION
+- OPERATION
 - PISTOL
 - PLANE
 - RIFLE
