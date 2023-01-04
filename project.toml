@@ -1,0 +1,6 @@
+[pipeline_data]
+name = "ww2spacy"
+author = "W.J.B. Mattingly"
+url = "https://github.com/wjbmattingly/ww2-spacy"
+version = "0.0.1"
+description = "This is a spaCy pipeline for processing primary and secondary sources pertaining to World War 2"
