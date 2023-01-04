@@ -39,6 +39,7 @@ displacy.render(doc, style="span", jupyter=True, options = {"spans_key": "ruler"
 - BATTLE
 - BATTLESHIP
 - BLADE
+- CAMP
 - CARRIER
 - CARRIER_ESCORT
 - CAVALRY
@@ -46,10 +47,12 @@ displacy.render(doc, style="span", jupyter=True, options = {"spans_key": "ruler"
 - DESTROYER
 - FLAMETHROWER
 - FRIGATE_DESTROYER_ESCORT
+- GHETTO
 - GRENADE
 - GUNBOAT
 - INFANTRY_DIVISION
 - MACHINE_GUN
+- MILITARY_PERSONNEL
 - MINE_VESSEL
 - MORTAR
 - MOUNTAIN_DIVISION
