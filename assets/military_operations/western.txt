@@ -82,7 +82,7 @@ Cooney
 Derry
 Diver
 Fabian
-Franklin
+Operation Franklin
 Fusilade
 Gaff
 Gain
@@ -103,14 +103,14 @@ Jockworth
 Kipling
 Loyton
 Lüttich
-Marine
+Operation Marine
 Market Garden
 Comet
 Operation Berlin
 Operation Marshall
 Operation Moses
 Newton
-Noah
+Operation Noah
 Olive
 Overlord
 Aberlour

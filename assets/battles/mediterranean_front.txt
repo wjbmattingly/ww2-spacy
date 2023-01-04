@@ -7,25 +7,19 @@ Battle of Cape Spada
 Battle of Cape Passero
 Battle of Taranto
 Battle of Cape Spartivento
-Operation Excess
 Raid on Souda Bay
 Battle of Cape Matapan
 Battle of the Tarigo Convoy
-Operation Substance
-Operation Halberd
 Battle of the Duisburg Convoy
 Battle of Cape Bon
 First Battle of Sirte
 Raid on Alexandria
 Second Battle of Sirte
-Operation Vigorous
-Operation Pedestal
 Battle of Skerki Bank
 Raid on Algiers
 Battle of the Cigno Convoy
 Battle of the Campobasso Convoy
 Battle of the Messina convoy
-Operation Scylla
 Battle of the Ligurian Sea
 Siege of Malta
 Balkan campaign
@@ -57,14 +51,9 @@ Battle of Thermopylae
 Battle of Crete
 Battle of Rethymno
 Battle of 42nd Street
-Operation Agreement
-Operation Strangle
 Allied invasion of Sicily
-Operation Ladbroke
-Operation Fustian
 Battle of Troina
 Allied invasion of Italy
-Operation Slapstick
 Dodecanese Campaign
 Battle of Leros
 Battle of Kos
@@ -77,7 +66,6 @@ Battle of Ortona
 Bernhardt Line
 Moro River Campaign
 Battle of Monte Cassino
-Operation Diadem
 Battle of Anzio
 Battle of Cisterna
 Trasimene Line

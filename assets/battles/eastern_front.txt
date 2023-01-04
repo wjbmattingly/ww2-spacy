@@ -32,15 +32,10 @@ Battle of Petsamo
 Axis invasion of the Soviet Union
 Defense of Brest Fortress
 Battle of Białystok-Minsk
-Operation Rentier
 Baltic Operation
 Battle of Raseiniai
 Battle of Brody
 Continuation War
-Operation Silver Fox
-Operation Platinum Fox
-Operation Arctic Fox
-Operation EF
 Battle of Smolensk
 Battle of Uman
 Pripyat swamps
@@ -52,9 +47,7 @@ Yelnya Offensive
 Battle of the Sea of Azov
 Siege of Leningrad
 Nevsky Pyatachok
-Operation Nordlicht
 Sinyavino Offensive
-Operation Iskra
 Battle of Bryansk
 Battle of the Crimea
 First Battle of Kharkov
@@ -63,36 +56,25 @@ Siege of Sevastopol
 Battle of the Kerch Peninsula
 Battle of Rostov
 Battle of Moscow
-Operation Uzice
 Soviet Winter counter-offensive
 Battles of Rzhev
-Operation Büffel
 Toropets-Kholm Operation
 Demyansk Pocket
 Second Battle of Kharkov
-Operation Kremlin
 Axis Summer offensive
-Operation Braunschweig
 Battle of Voronezh
 Battle of the Caucasus
 Malaya Zemlya
 Battle of Stalingrad
-Operation Uranus
-Operation Mars
-Operation Little Saturn
 Tatsinskaya Raid
-Operation Winter Storm
 Battle for Velikiye Luki
-Operation Polyarnaya Zvezda
 Battle of Krasny Bor
 Ostrogozhsk-Rossosh Operation
 Battle of Voronezh
 Third Battle of Kharkov
 Warsaw Ghetto Uprising
-Operation Citadel
 Battle of Kursk
 Battle of Prokhorovka
-Operation Kutuzov
 Battle of Smolensk
 Battle of Lenino
 Fourth Battle of Kharkov
@@ -100,7 +82,6 @@ Battle of Belgorod
 Białystok Ghetto Uprising
 Battle of the Dnieper
 Battle of Kiev
-Operation Concert
 Dnieper–Carpathian Offensive
 Zhitomir–Berdichev Offensive
 Korsun Pocket
@@ -122,7 +103,6 @@ Kerch-Eltigen Operation
 Shyaulyay Offensive
 Battle of Someri
 Vyborg–Petrozavodsk Offensive
-Operation Bagration
 Vitebsk–Orsha Offensive
 Mogilev Offensive
 Bobruysk Offensive
@@ -140,7 +120,6 @@ Lvov–Sandomierz Offensive
 Battle of Radzymin
 Warsaw Uprising
 Battle of Studzianki
-Operation Doppelkopf
 Romanian campaign
 Jassy–Kishinev Offensive
 First Jassy–Kishinev Offensive
@@ -156,14 +135,11 @@ Battle of Porkuni
 Moonsund Landing Operation
 Battle of Memel
 Belgrade Offensive
-Operation Nordlicht
 Battle of Debrecen
-Operation Panzerfaust
 Courland Pocket
 Gumbinnen Operation
 Budapest Offensive
 Siege of Budapest
-Operation Konrad
 Vistula–Oder Offensive
 Battle of Poznań
 East Prussian Offensive
@@ -174,12 +150,9 @@ Silesian Offensives
 Lower Silesian Offensive
 Siege of Breslau
 Upper Silesian Offensive
-Operation Solstice
 East Pomeranian Offensive
 Battle of Kolberg
-Operation Spring Awakening
 Battle of the Transdanubian Hills
-Operation Margarethe
 Nagykanizsa–Kermend Offensive
 Vienna Offensive
 Samland Offensive

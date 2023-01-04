@@ -1,6 +1,5 @@
 SOURCE:https://en.wikipedia.org/wiki/List_of_World_War_II_battles
 French offensive into Germany
-Operation Weserübung
 German Invasion of Denmark
 German invasion of Norway
 Battles of Narvik
@@ -49,60 +48,36 @@ Adlertag
 The Hardest Day
 Battle of Britain Day
 Battle of Graveney Marsh
-Aerial incidents in Switzerland in World War II (1940-1945)
 The Blitz
-Operation Cerberus
-Operation Donnerkeil
 St. Nazaire Raid
 Dieppe Raid
-Battle of Berlin (air)
+Battle of Berlin
 Western Allied invasion of France
-Operation Overlord
-Operation Tonga
 Normandy landings
 Battle for Caen
-Operation Perch
 Battle of Villers-Bocage
-Operation Epsom
-Operation Windsor
-Operation Charnwood
-Operation Jupiter
 Second Battle of the Odon
-Operation Goodwood
-Operation Atlantic
 Battle of Verrières Ridge
-Operation Spring
 Battle of Cherbourg
 Battle of Carentan
 Battle of Bloody Gulch
 Battle of Saint-Lô
-Operation Cobra
-Operation Lüttich
 Battle for Brest
-Operation Totalize
 Falaise Pocket
-Operation Tractable
 Battle of Hill 262
 Battle of Chambois
 Liberation of Paris
 French Resistance
-Operation Valkyrie
-Operation Dragoon
-Operation Romeo
 Battle of Port Cros
 Battle of La Ciotat
 Allied advance from Paris to the Rhine
 Clearing the Channel Coast
-Operation Astonia
 Siege of Dunkirk
-Operation Wellhit
-Operation Undergo
 Battle of the Scheldt
 Lorraine Campaign
 Battle of Nancy
 Battle of Metz
 Battle of Arracourt
-Operation Market Garden
 Battle of Arnhem
 Battle of Nijmegen
 Battle of Moerbrugge
@@ -110,8 +85,6 @@ Battle of Aachen
 Battle of Crucifix Hill
 Battle of Overloon
 Battle of Hürtgen Forest
-Operation Queen
-Operation Clipper
 Battle of Vianden
 Battle of Kesternich
 Battle of the Bulge
@@ -121,22 +94,12 @@ Battle of Lanzerath Ridge
 Battle of Clervaux
 Battle of St. Vith
 Siege of Bastogne
-Operation Bodenplatte
-Operation Nordwind
 Colmar Pocket
-Operation Blackcock
-Operation Veritable
-Operation Grenade
-Operation Lumberjack
 Battle of Remagen
 Western Allied invasion of Germany
-Operation Undertone
-Operation Plunder
-Operation Varsity
 Ruhr Pocket
 Battle of Kassel
 Battle of Heilbronn
-Operation Amherst
 Battle of Nuremberg
 Battle of Hamburg
 Battle of Castle Itter

@@ -17,14 +17,14 @@ Battle of Gemas
 Battle off Endau
 Bombing of Bangkok
 Japanese occupation of Singapore
-Bombing of Singapore (1941)
+Bombing of Singapore
 Battle of Sarimbun Beach
 Battle of Kranji
 Battle of Bukit Timah
 Battle of Pasir Panjang
 Burma Campaign
 Japanese-Thai occupation of Burma
-Bombing of Rangoon (1941-1942)
+Bombing of Rangoon
 Battle of Bilin River
 Battle of Sittang Bridge
 Battle of Pegu
@@ -50,9 +50,6 @@ Battle of Meiktila and Mandalay
 Battle of Pokoku and Irrawaddy River operations
 Battle of Hill
 Battle of Ramree Island
-Operation Dracula
 Battle of Elephant Point
 Allies bombing of South-East Asia
-Operation Matterhorn
 Battle of the Malacca Strait
-Operation Tiderace
