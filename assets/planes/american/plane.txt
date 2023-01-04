@@ -277,3 +277,7 @@ Waco PT-14
 Westland Lysander
 the Spitfire
 Spitfire
+the Stinson
+P-35
+the Mustang
+Mustang
