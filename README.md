@@ -1,6 +1,8 @@
 ![header for ww2 spacy](https://github.com/wjbmattingly/ww2-spacy/raw/main/images/header.png)
 
-WW2 [spaCy](www.spacy.io) is a pipeline for processing primary and secondary sources for World War 2 and performing named entity recognition (NER). Currently, the pipeline is focused on United States-based military NER with plans to expand to include other countries in the near future.
+[![PyPI - PyPi](https://img.shields.io/pypi/v/en_ww2spacy)](https://pypi.org/project/en_ww2spacy/)
+
+WW2 [spaCy](www.spacy.io) is a pipeline for processing primary and secondary sources for World War 2 and performing named entity recognition (NER). Currently, the pipeline is focused on United States-based military NER with plans to expand to include other countries in the near future. **NOTE** Updates are occuring frequently for this pipeline to expand its labels and the accuracy of the rules.
 
 The pipeline is designed to not rely on machine learning so that it can remain modular, meaning a user can take a specific pipe and attach it to their own pipeline without issue. The main component is a SpanRuler that is used to identify and classify different military units, ships, planes, tanks, and battles. For a full list of entities, see below. Custom RegEx components are also used to identify military personnel. Finally, several custom components clean the spans to remove potential or likely false positives.
 
@@ -31,36 +33,57 @@ displacy.render(doc, style="span", jupyter=True, options = {"spans_key": "ruler"
 ![example output](https://github.com/wjbmattingly/ww2-spacy/raw/main/images/example.png)
 
 # List of Entity Labels
+
+## MILITARY UNITS
+### AMERICAN
 - AIRBORN_DIVISION
-- AMPHIBIOUS_VESSEL
-- ANTI_TANK
 - ARMORED_DIVISION
+- ARMY_GROUP
 - BATTALION
+- CAVALRY
+- CORPS
+- FIELD_ARMY
+- INFANTRY_DIVISION
+- MOUNTAIN_DIVISION
+
+## EVENTS
+### MILITARY
 - BATTLE
-- BATTLESHIP
-- BLADE
+- OPERATION
+
+## PLACES
+### HOLOCAUST
 - CAMP
+- GHETTO
+
+## VEHICLES
+### AMERICAN
+- AMPHIBIOUS_VESSEL
+- BATTLESHIP
 - CARRIER
 - CARRIER_ESCORT
-- CAVALRY
 - CRUISER
 - DESTROYER
-- FLAMETHROWER
 - FRIGATE_DESTROYER_ESCORT
-- GHETTO
-- GRENADE
 - GUNBOAT
-- INFANTRY_DIVISION
-- MACHINE_GUN
-- MILITARY_PERSONNEL
 - MINE_VESSEL
-- MORTAR
-- MOUNTAIN_DIVISION
-- OPERATION
-- PISTOL
 - PLANE
+- SUBMARINE
+- TANK
+
+## WEAPONS
+### AMERICAN
+- ANTI_TANK
+- BLADE
+- FLAMETHROWER
+- GRENADE
+- MACHINE_GUN
+- MORTAR
+- PISTOL
 - RIFLE
 - SHOTGUN
 - SUBMACHINE_GUN
-- SUBMARINE
-- TANK
+- PISTOL
+
+# MISC
+- MILITARY_PERSONNEL
