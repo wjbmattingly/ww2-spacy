@@ -1,19 +1,21 @@
 SOURCE: https://en.wikipedia.org/wiki/United_States_Army_enlisted_rank_insignia_of_World_War_II
-Private|PV1|Pvt
-Private First Class|Pfc
-Corporal|Cpl
-Sergeant|Sgt
-Staff Sergeant|SSG|S\/Sgt
-Sergeant Sirst Class|SFC|T\/Sgt
-First Sergeant|1SG|1sg|1st Sgt
-Master Sergeant|MSG|m\/Sgt
-Second Lieutenant|2lt
-First Lieutenant|1Lt
-Captain|Cap|Cpt|Capt
-Major|Maj
-Lieutenant Colonel|LTC|Lt Colonel|Lt\. Colonel
-Colonel|Col
-General|Gen
-Grigadier General|Grigadier Gen
-Major General|Major Gen
-Lieutenant General|Lt\. Gen|Lt Gen
+Private|PV1|Pvt|Pvt\.
+Private First Class|Pfc|Pfc\.
+Corporal|Cpl|Cpl\.
+Sergeant|Sgt|Sgt\.
+Staff Sergeant|SSG|S\/Sgt|Staff Sgt\.|Staff Sgt
+Sergeant First Class|SFC|T\/Sgt
+First Sergeant|1SG|1sg|1st Sgt|1st Sgt\.
+Master Sergeant|MSG|m\/Sgt|m \Sgt|M Sgt\.
+Second Lieutenant|2lt|2Lt\.|2Lt
+First Lieutenant|1Lt|2Lt\.|2Lt
+Lt\.
+Lieutenant
+Captain|Cap|Cpt|Capt|Cpt\.|Capt\.|Cap\.
+Major|Maj|Maj\.
+Lieutenant Colonel|LTC|Lt Colonel|Lt\. Colonel|Lt\. Col\.
+Colonel|Col|Col\.
+General|Gen|Gen\.
+Brigadier General|Brigadier Gen|Brig\. Gen\.|Brigadier Gen\.
+Major General|Major Gen|Maj\. Gen\.
+Lieutenant General|Lt\. Gen\.|Lt Gen

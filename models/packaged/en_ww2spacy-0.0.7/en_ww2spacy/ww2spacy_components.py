@@ -7,7 +7,7 @@ import re
 import string
 import toml
 
-military_pattern = '((Private|PV1|Pvt)|(Private First Class|Pfc)|(Corporal|Cpl)|(Sergeant|Sgt)|(Staff Sergeant|SSG|S\/Sgt)|(Sergeant Sirst Class|SFC|T\/Sgt)|(First Sergeant|1SG|1sg|1st Sgt)|(Master Sergeant|MSG|m\/Sgt)|(Second Lieutenant|2lt)|(First Lieutenant|1Lt)|(Captain|Cap|Cpt|Capt)|(Major|Maj)|(Lieutenant Colonel|LTC|Lt Colonel|Lt\. Colonel)|(Colonel|Col)|(General|Gen)|(Grigadier General|Grigadier Gen)|(Major General|Major Gen)|(Lieutenant General|Lt\. Gen|Lt Gen)) [A-Z][a-z\.]*( [A-Z][a-z\.]*)*'
+military_pattern = '(Private|PV1|Pvt|Private First Class|Pfc|Corporal|Cpl|Sergeant|Sgt|Sgt\.|Staff Sergeant|SSG|S\/Sgt|Sergeant Sirst Class|SFC|T\/Sgt|First Sergeant|1SG|1sg|1st Sgt|Master Sergeant|MSG|m\/Sgt|Second Lieutenant|2lt|First Lieutenant|1Lt|Captain|Cap|Cpt|Capt|Major|Maj|Lieutenant Colonel|LTC|Lt Colonel|Lt\. Colonel|Colonel|Col|General|Gen|Grigadier General|Grigadier Gen|Major General|Major Gen|Lieutenant General|Lt\. Gen|Lt Gen) [A-Z][a-z\.]*( [A-Z][a-z\.]*)*'
 
 @Language.component("clean_spans")
 def clean_spans(doc):
@@ -44,7 +44,9 @@ def clean_spans(doc):
     return doc
 
 @Language.component("military_personnel")
-def military_personnel(doc):
+def military_personel(doc):
+    military_pattern = regex_patterns("assets/military_ranks/american/army.txt",
+                                              extra=" [A-Z][a-z\.]*( [A-Z][a-z\.]*)*")
     text = doc.text
     new_ents = []
     original_ents = list(doc.spans["ruler"])
@@ -55,10 +57,11 @@ def military_personnel(doc):
             start = start+sent.start_char
             end = end+sent.start_char
             span = doc.char_span(start, end)
-            if span.text[-1] in string.punctuation:
-                span.end = span.end-1
-            start, end, name = span.start, span.end, span.text
-            original_ents.append(Span(doc, start, end, label="MILITARY_PERSONELL"))
+            if span != None:
+                if span.text[-1] in string.punctuation:
+                    span.end = span.end-1
+                start, end, name = span.start, span.end, span.text
+                original_ents.append(Span(doc, start, end, label="MILITARY_PERSONNEL"))
     doc.spans["ruler"] = original_ents
     return doc
 

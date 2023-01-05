@@ -7,7 +7,7 @@ import re
 import string
 import toml
 
-military_pattern = '((Private|PV1|Pvt)|(Private First Class|Pfc)|(Corporal|Cpl)|(Sergeant|Sgt)|(Staff Sergeant|SSG|S\/Sgt)|(Sergeant Sirst Class|SFC|T\/Sgt)|(First Sergeant|1SG|1sg|1st Sgt)|(Master Sergeant|MSG|m\/Sgt)|(Second Lieutenant|2lt)|(First Lieutenant|1Lt)|(Captain|Cap|Cpt|Capt)|(Major|Maj)|(Lieutenant Colonel|LTC|Lt Colonel|Lt\. Colonel)|(Colonel|Col)|(General|Gen)|(Grigadier General|Grigadier Gen)|(Major General|Major Gen)|(Lieutenant General|Lt\. Gen|Lt Gen)) [A-Z][a-z\.]*( [A-Z][a-z\.]*)*'
+military_pattern = '(Private|PV1|Pvt|Pvt\.|Private First Class|Pfc|Pfc\.|Corporal|Cpl|Cpl\.|Sergeant|Sgt|Sgt\.|Staff Sergeant|SSG|S\/Sgt|Staff Sgt\.|Staff Sgt|Sergeant First Class|SFC|T\/Sgt|First Sergeant|1SG|1sg|1st Sgt|1st Sgt\.|Master Sergeant|MSG|m\/Sgt|m \Sgt|M Sgt\.|Second Lieutenant|2lt|2Lt\.|2Lt|First Lieutenant|1Lt|2Lt\.|2Lt|Lt\.|Lieutenant|Captain|Cap|Cpt|Capt|Cpt\.|Capt\.|Cap\.|Major|Maj|Maj\.|Lieutenant Colonel|LTC|Lt Colonel|Lt\. Colonel|Lt\. Col\.|Colonel|Col|Col\.|General|Gen|Gen\.|Brigadier General|Brigadier Gen|Brig\. Gen\.|Brigadier Gen\.|Major General|Major Gen|Maj\. Gen\.|Lieutenant General|Lt\. Gen\.|Lt Gen) [A-Z][a-z\.]*( [A-Z][a-z\.]*)*'
 
 @Language.component("clean_spans")
 def clean_spans(doc):
@@ -44,21 +44,25 @@ def clean_spans(doc):
     return doc
 
 @Language.component("military_personnel")
-def military_personnel(doc):
+def military_personel(doc):
     text = doc.text
     new_ents = []
     original_ents = list(doc.spans["ruler"])
-    for sent in doc.sents:
-        for match in re.finditer(military_pattern, sent.text):
 
-            start, end = match.span()
-            start = start+sent.start_char
-            end = end+sent.start_char
-            span = doc.char_span(start, end)
+    for match in re.finditer(military_pattern, doc.text):
+        start, end = match.span()
+        span = doc.char_span(start, end, alignment_mode="expand")
+        if span != None:
             if span.text[-1] in string.punctuation:
                 span.end = span.end-1
             start, end, name = span.start, span.end, span.text
-            original_ents.append(Span(doc, start, end, label="MILITARY_PERSONELL"))
+            tmp_span = Span(doc, start, end, label="MILITARY_PERSONNEL")
+            for i, token in enumerate(tmp_span):
+                if i > 2 and doc[(tmp_span.start+i)-2].text not in military_pattern.replace("\\", ""):
+                    if token.is_sent_start == True:
+                        tmp_span.end=tmp_span.start+i-1
+
+            original_ents.append(tmp_span)
     doc.spans["ruler"] = original_ents
     return doc
 
@@ -71,6 +75,30 @@ def clean_tank(doc):
                 span.end = span.end-1
         new_spans.append(span)
     doc.spans["ruler"] = new_spans
+    return doc
+
+@Language.component("clean_ships")
+def clean_ships(doc):
+    hit_words = ["crew", "sea", "marine", "water", "ship", "boat", "vessel", "aboard", "captain", "sail"]
+    window_start, window_end = [25, 25]
+    original_ents = list(doc.spans["ruler"])
+    new_ents = []
+    for span in original_ents:
+        if span.label_ in ["CRUISER", "BATTLESHIP"]:
+            if span.start_char < window_start:
+                window_start = 0
+            else:
+                window_start = span.start_char-window_start
+            if len(doc.text)-span.end_char > window_end:
+                window_end = -1
+            else:
+                window_end = span.end_char+window_end
+            window_text = doc.text[window_start: window_end]
+            if any(hit in window_text for hit in hit_words):
+                new_ents.append(span)
+        else:
+            new_ents.append(span)
+    doc.spans["ruler"] = new_ents
     return doc
 
 @Language.component("find_ghetto")
